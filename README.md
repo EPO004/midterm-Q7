@@ -32,9 +32,9 @@ This repository contains Verilog code for a simple processor and its testbench. 
 
 ## Repository Structure
 
-- `src/`: Contains Verilog source files.
-- `tb/`: Contains testbench files.
-- `modelsim/`: Contains ModelSim project files and scripts.
+- `Code/`: Contains Verilog source files.
+- `Document/`: Contains report as PDF.
+- `Miscellaneous/`: Contains ModelSim project files and scripts.
 - `README.md`: This file.
 
 ## Running Simulations
@@ -47,14 +47,14 @@ This repository contains Verilog code for a simple processor and its testbench. 
 2. **Create a New Project**
    - Go to `File > New > Project`.
    - Enter a project name and specify a location.
-   - Add existing files from the `src/` and `tb/` directories to the project.
+   - Add existing files from the `Code/` directory to the project.
 
 3. **Compile the Code**
    - In the ModelSim window, go to `Compile > Compile All`.
 
 4. **Run the Simulation**
    - Go to `Simulate > Start Simulation`.
-   - Select the testbench module (e.g., `processor_tb`) from the `tb` directory.
+   - Select the testbench module (e.g., `TB.v`) from the `Code` directory.
    - Run the simulation and view the waveforms in the waveform window.
 
 ### Using VSCode
@@ -64,7 +64,7 @@ This repository contains Verilog code for a simple processor and its testbench. 
    - Navigate to the directory where you cloned this repository and open it.
 
 2. **Edit Verilog Files**
-   - Open the Verilog files in the `src/` and `tb/` directories for editing.
+   - Open the Verilog files in the `Code/` directory for editing.
    - Use the Verilog HDL Support extension for syntax highlighting and code snippets.
 
 3. **Run ModelSim from VSCode**
@@ -77,7 +77,7 @@ This repository contains Verilog code for a simple processor and its testbench. 
 
 ## Example Usage
 
-### Example Testbench (`processor_tb.v`)
+### Example Testbench (`Code/TB.v`)
 
 Here's a quick overview of a sample testbench included in this repository:
 
