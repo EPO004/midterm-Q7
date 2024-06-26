@@ -1,0 +1,29 @@
+C:/Users/EPO/Desktop/DSD-Proj/memory.v {1 {vlog -work work -sv C:/Users/EPO/Desktop/DSD-Proj/memory.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} C:/Users/EPO/Desktop/DSD-Proj/ALU.v {1 {vlog -work work -sv C:/Users/EPO/Desktop/DSD-Proj/ALU.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/EPO/Desktop/DSD-Proj/processor.v {1 {vlog -work work -sv C:/Users/EPO/Desktop/DSD-Proj/processor.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module processor
+
+Top level modules:
+	processor
+
+} {} {}} C:/Users/EPO/Desktop/DSD-Proj/register_file.v {1 {vlog -work work -sv C:/Users/EPO/Desktop/DSD-Proj/register_file.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}}

@@ -1,0 +1,116 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\EPO\Desktop\DSD
+vALU
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 !s100 ZO3imOVGN8=:kRV2jF?171
+Z3 IB]W>>2S]0JaW[0InEoA0S2
+Z4 VLVzF=bN6oBUnQN=n;G8iJ3
+Z5 !s105 ALU_v_unit
+S1
+Z6 dC:\Users\EPO\Desktop\DSD-Proj
+Z7 w1719407160
+Z8 8C:/Users/EPO/Desktop/DSD-Proj/ALU.v
+Z9 FC:/Users/EPO/Desktop/DSD-Proj/ALU.v
+L0 1
+Z10 OV;L;10.1d;51
+r1
+31
+Z11 !s90 -reportprogress|300|-work|work|-sv|C:/Users/EPO/Desktop/DSD-Proj/ALU.v|
+Z12 o-work work -sv -O0
+Z13 n@a@l@u
+Z14 !s108 1719408117.782000
+Z15 !s107 C:/Users/EPO/Desktop/DSD-Proj/ALU.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmemory
+R1
+Z16 !s100 >K<KVkBh`8lfSCz2_>`3Q2
+Z17 I`kBX_AeGo7CJe2]_X:Z]Q1
+Z18 Veg]08bYaM_Z_oF2SRS^Zg1
+Z19 !s105 memory_v_unit
+S1
+R6
+Z20 w1719407158
+Z21 8C:/Users/EPO/Desktop/DSD-Proj/memory.v
+Z22 FC:/Users/EPO/Desktop/DSD-Proj/memory.v
+L0 1
+R10
+r1
+31
+Z23 !s90 -reportprogress|300|-work|work|-sv|C:/Users/EPO/Desktop/DSD-Proj/memory.v|
+R12
+Z24 !s108 1719408117.893000
+Z25 !s107 C:/Users/EPO/Desktop/DSD-Proj/memory.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vprocessor
+R1
+Z26 !s100 `SJ_YW[JG^NVbMN^o[5la3
+Z27 II@hk_2HW;nFlik5MBFbB?0
+Z28 V7eA]>]JhngB[MmM9SG_P<2
+Z29 !s105 processor_v_unit
+S1
+R6
+Z30 w1719407157
+Z31 8C:/Users/EPO/Desktop/DSD-Proj/processor.v
+Z32 FC:/Users/EPO/Desktop/DSD-Proj/processor.v
+L0 3
+R10
+r1
+31
+Z33 !s90 -reportprogress|300|-work|work|-sv|C:/Users/EPO/Desktop/DSD-Proj/processor.v|
+R12
+!i10b 1
+!s85 0
+Z34 !s108 1719408117.958000
+Z35 !s107 C:/Users/EPO/Desktop/DSD-Proj/processor.v|
+!s101 -O0
+vprocessor_tb
+R1
+!i10b 1
+!s100 `P@[E`WNfmc387AWa[jn>2
+I[^_ldRA_LU`4biPV;7B6W1
+Z36 VA@=eDRFOlHj=73A@IeYY<2
+Z37 !s105 TB_v_unit
+S1
+R6
+w1719408102
+Z38 8C:/Users/EPO/Desktop/DSD-Proj/TB.v
+Z39 FC:/Users/EPO/Desktop/DSD-Proj/TB.v
+L0 1
+R10
+r1
+!s85 0
+31
+!s108 1719408118.019000
+!s107 C:/Users/EPO/Desktop/DSD-Proj/TB.v|
+Z40 !s90 -reportprogress|300|-work|work|-sv|C:/Users/EPO/Desktop/DSD-Proj/TB.v|
+!s101 -O0
+R12
+vregister_file
+R1
+Z41 !s100 JO?BPoS3GzIi>G^e09zFP0
+Z42 IoEY5UVlg9Vhi2[A?6WICK1
+Z43 VR^:C785aS9Q?lhT71O3f]2
+Z44 !s105 register_file_v_unit
+S1
+R6
+Z45 w1719407159
+Z46 8C:/Users/EPO/Desktop/DSD-Proj/register_file.v
+Z47 FC:/Users/EPO/Desktop/DSD-Proj/register_file.v
+L0 1
+R10
+r1
+31
+Z48 !s90 -reportprogress|300|-work|work|-sv|C:/Users/EPO/Desktop/DSD-Proj/register_file.v|
+R12
+Z49 !s108 1719408117.845000
+Z50 !s107 C:/Users/EPO/Desktop/DSD-Proj/register_file.v|
+!i10b 1
+!s85 0
+!s101 -O0
