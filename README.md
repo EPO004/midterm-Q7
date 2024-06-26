@@ -49,9 +49,7 @@ This repository contains Verilog code for a simple processor and its testbench. 
    - Go to `File > New > Project`.
    - Enter a project name and specify a location.
    - Add existing files from the `Code/` directory to the project.
-   - ```markdown
-     ![Alt text](Miscellaneous\images\newproj.png)
-     ```
+   - ![Creating New Project](Miscellaneous/images/newproj.png)
 
 3. **Compile the Code**
    - In the ModelSim window, go to `Compile > Compile All`.
