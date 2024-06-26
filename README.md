@@ -53,7 +53,7 @@ This repository contains Verilog code for a simple processor and its testbench. 
 
 3. **Compile the Code**
    - In the ModelSim window, go to `Compile > Compile All`.
-   - ![compile](Miscellaneous/images/compile_and_sim.png)
+   - ![compile](Miscellaneous/images/complie_and_sim.png)
 
 4. **Run the Simulation**
    - Go to `Simulate > Start Simulation`.
