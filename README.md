@@ -1,4 +1,5 @@
-# midterm-Q7
+#Mohammadfarhan Bahrami--STDid 401105729
+# Midterm-Q7
 
 This repository contains Verilog code for a simple processor and its testbench. This guide will help you set up ModelSim and VSCode to run and simulate Verilog code.
 
@@ -48,32 +49,28 @@ This repository contains Verilog code for a simple processor and its testbench. 
    - Go to `File > New > Project`.
    - Enter a project name and specify a location.
    - Add existing files from the `Code/` directory to the project.
+   - ![Alt text](Miscellaneous\images\newproj.png)
 
 3. **Compile the Code**
    - In the ModelSim window, go to `Compile > Compile All`.
+   - ![Alt text](Miscellaneous\images\compile_and_sim.png)
 
 4. **Run the Simulation**
    - Go to `Simulate > Start Simulation`.
    - Select the testbench module (e.g., `TB.v`) from the `Code` directory.
    - Run the simulation and view the waveforms in the waveform window.
+   - ![Alt text](Miscellaneous\images\sim_contin.png)
 
 ### Using VSCode
 
 1. **Open the Repository**
    - Open VSCode and select `File > Open Folder`.
    - Navigate to the directory where you cloned this repository and open it.
+   - ![Alt text](Miscellaneous\images\vscode.png)
 
 2. **Edit Verilog Files**
    - Open the Verilog files in the `Code/` directory for editing.
    - Use the Verilog HDL Support extension for syntax highlighting and code snippets.
-
-3. **Run ModelSim from VSCode**
-   - If you have the ModelSim Integration extension installed, you can run ModelSim directly from VSCode.
-   - Alternatively, open a terminal in VSCode by selecting `Terminal > New Terminal` and navigate to the `modelsim/` directory.
-   - Run the following commands to compile and simulate:
-     ```sh
-     vsim -do script.do
-     ```
 
 ## Example Usage
 
@@ -138,5 +135,7 @@ module processor_tb;
 
 endmodule
 ```
+### The result of this example is
+![Alt text](Miscellaneous\images\result.png)
 ## Authors 
 -- [Mohammadfarhan Bahrami](https://github.com/EPO004)
