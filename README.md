@@ -1,5 +1,4 @@
 # midterm-Q7
-# Verilog Simulation with ModelSim and VSCode
 
 This repository contains Verilog code for a simple processor and its testbench. This guide will help you set up ModelSim and VSCode to run and simulate Verilog code.
 
