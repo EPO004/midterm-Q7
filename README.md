@@ -49,24 +49,32 @@ This repository contains Verilog code for a simple processor and its testbench. 
    - Go to `File > New > Project`.
    - Enter a project name and specify a location.
    - Add existing files from the `Code/` directory to the project.
-   - ![Alt text](Miscellaneous\images\newproj.png)
+   - ```markdown
+     ![Alt text](Miscellaneous\images\newproj.png)
+     ```
 
 3. **Compile the Code**
    - In the ModelSim window, go to `Compile > Compile All`.
-   - ![Alt text](Miscellaneous\images\compile_and_sim.png)
+   - ```markdown
+     ![Alt text](Miscellaneous\images\compile_and_sim.png)
+     ```
 
 4. **Run the Simulation**
    - Go to `Simulate > Start Simulation`.
    - Select the testbench module (e.g., `TB.v`) from the `Code` directory.
    - Run the simulation and view the waveforms in the waveform window.
-   - ![Alt text](Miscellaneous\images\sim_contin.png)
+   - ```markdown
+     ![Alt text](Miscellaneous\images\sim_contin.png)
+     ```
 
 ### Using VSCode
 
 1. **Open the Repository**
    - Open VSCode and select `File > Open Folder`.
    - Navigate to the directory where you cloned this repository and open it.
-   - ![Alt text](Miscellaneous\images\vscode.png)
+   - ```markdown
+     ![Alt text](Miscellaneous\images\vscode.png)
+     ```
 
 2. **Edit Verilog Files**
    - Open the Verilog files in the `Code/` directory for editing.
@@ -136,6 +144,8 @@ module processor_tb;
 endmodule
 ```
 ### The result of this example is
+```markdown
 ![Alt text](Miscellaneous\images\result.png)
+```
 ## Authors 
 -- [Mohammadfarhan Bahrami](https://github.com/EPO004)
