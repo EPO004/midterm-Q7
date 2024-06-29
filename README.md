@@ -1,14 +1,25 @@
 #Mohammadfarhan Bahrami--STD id 401105729
 # Midterm-Q7
 
+## Table of Contents
+
+- [Modules](#modules)
+  - [Tools_Required](#Tools_Required)
+  - [Setting_Up](#Setting_Up)
+  - [Repository Structure](#Repository_Structure)
+  - [Running_Simulations](#Running_Simulations)
+  - [Modules](#Modules)
+  - [Example_Usage](#Example_Usage)
+  - [Authors](#Authors)
+
 This repository contains Verilog code for a simple processor and its testbench. This guide will help you set up ModelSim and VSCode to run and simulate Verilog code.
 
-## Tools Required
+## Tools_Required
 
 1. **ModelSim**: A powerful HDL simulation environment.
 2. **VSCode**: A versatile code editor with support for many programming languages and tools.
 
-## Setting Up
+## Setting_Up
 
 ### ModelSim
 
@@ -31,14 +42,14 @@ This repository contains Verilog code for a simple processor and its testbench. 
      - **Verilog HDL Support**: Adds syntax highlighting and snippets for Verilog HDL.
      - **ModelSim Integration** (optional): For integrated support with ModelSim.
 
-## Repository Structure
+## Repository_Structure
 
 - `Code/`: Contains Verilog source files.
 - `Document/`: Contains report as PDF and docx.
 - `Miscellaneous/`: Contains ModelSim project files and screenshots.
 - `README.md`: This file.
 
-## Running Simulations
+## Running_Simulations
 
 ### Using ModelSim
 
@@ -73,14 +84,6 @@ This repository contains Verilog code for a simple processor and its testbench. 
    - Open the Verilog files in the `Code/` directory for editing.
    - Use the Verilog HDL Support extension for syntax highlighting and code snippets.
 
-## Table of Contents
-
-- [Modules](#modules)
-  - [stack](#stack)
-  - [ALU_BASED_STACK](#alu_based_stack)
-  - [ALU_BASED_STACK_tb](#alu_based_stack_tb)
-  - [infix2postfix](#infix2postfix)
-  - [evalpost](#evalpost)
 
 ## Modules
 
@@ -174,7 +177,7 @@ Module to evaluate a postfix expression using the `ALU_BASED_STACK` module. It p
 - **Operation:**
   Explain the process of tokenizing and evaluating the postfix expression.
 
-## Example Usage
+## Example_Usage
 
 ### Example Testbench (`Code/TB.v`)
 
