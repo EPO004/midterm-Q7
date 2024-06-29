@@ -109,7 +109,7 @@ This module implements a simple stack data structure in Verilog. It supports bas
 - **Usage:**
   Describe how to instantiate and use the `stack` module in other designs.
 
-### ALU_BASED_STACK
+### STACK_BASED_ALU
 
 This module integrates the stack module (`stack`) with an ALU (Arithmetic Logic Unit) to perform stack-based arithmetic operations. It handles pushing and popping data from the stack based on an opcode input.
 
@@ -129,11 +129,11 @@ This module integrates the stack module (`stack`) with an ALU (Arithmetic Logic 
   - `MAX_SIZE`: Maximum capacity of the stack (parameter passed to `stack` module).
 
 - **Usage:**
-  Provide an example of how to instantiate and use `ALU_BASED_STACK` with sample test cases.
+  Provide an example of how to instantiate and use `STACK_BASED_ALU` with sample test cases.
 
-### ALU_BASED_STACK_tb
+### STACK_BASED_ALU_tb
 
-Testbench module for verifying the functionality of `ALU_BASED_STACK`. It generates stimuli, applies them to the module under test (`ALU_BASED_STACK`), and checks the outputs for correctness.
+Testbench module for verifying the functionality of `STACK_BASED_ALU`. It generates stimuli, applies them to the module under test (`STACK_BASED_ALU`), and checks the outputs for correctness.
 
 - **Purpose:**
   - Verify stack operations (push, pop).
@@ -164,7 +164,7 @@ This module converts an infix expression to a postfix expression using a stack d
 
 ### evalpost
 
-Module to evaluate a postfix expression using the `ALU_BASED_STACK` module. It processes each token in the postfix expression, performs the corresponding arithmetic or stack operation, and outputs the final result.
+Module to evaluate a postfix expression using the `STACK_BASED_ALU` module. It processes each token in the postfix expression, performs the corresponding arithmetic or stack operation, and outputs the final result.
 
 - **Inputs:**
   - `infix_expr`: Input infix expression.
