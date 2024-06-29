@@ -73,6 +73,107 @@ This repository contains Verilog code for a simple processor and its testbench. 
    - Open the Verilog files in the `Code/` directory for editing.
    - Use the Verilog HDL Support extension for syntax highlighting and code snippets.
 
+## Table of Contents
+
+- [Modules](#modules)
+  - [stack](#stack)
+  - [ALU_BASED_STACK](#alu_based_stack)
+  - [ALU_BASED_STACK_tb](#alu_based_stack_tb)
+  - [infix2postfix](#infix2postfix)
+  - [evalpost](#evalpost)
+
+## Modules
+
+### stack
+
+This module implements a simple stack data structure in Verilog. It supports basic operations such as push and pop, along with maintaining full and empty status flags. The stack size and data width are parameterized.
+
+- **Inputs:**
+  - `clk`: Clock signal.
+  - `rst`: Reset signal.
+  - `push`: Input signal to push data onto the stack.
+  - `pop`: Input signal to pop data from the stack.
+  - `data_in`: Input data to be pushed onto the stack.
+
+- **Outputs:**
+  - `data_out`: Output data popped from the stack.
+  - `full`: High when the stack is full.
+  - `empty`: High when the stack is empty.
+
+- **Parameters:**
+  - `N`: Width of the data bus.
+  - `MAX_SIZE`: Maximum capacity of the stack.
+
+- **Usage:**
+  Describe how to instantiate and use the `stack` module in other designs.
+
+### ALU_BASED_STACK
+
+This module integrates the stack module (`stack`) with an ALU (Arithmetic Logic Unit) to perform stack-based arithmetic operations. It handles pushing and popping data from the stack based on an opcode input.
+
+- **Inputs:**
+  - `clk`: Clock signal.
+  - `rst`: Reset signal.
+  - `opcode`: Control signal for selecting arithmetic operations (addition, multiplication) or stack operations (push, pop).
+  - `input_data`: Input data for arithmetic operations.
+
+- **Outputs:**
+  - `output_data`: Result of arithmetic operations.
+  - `overflow`: Indicates arithmetic overflow.
+  - `success`: Indicates successful operation completion.
+
+- **Parameters:**
+  - `N`: Width of the data bus.
+  - `MAX_SIZE`: Maximum capacity of the stack (parameter passed to `stack` module).
+
+- **Usage:**
+  Provide an example of how to instantiate and use `ALU_BASED_STACK` with sample test cases.
+
+### ALU_BASED_STACK_tb
+
+Testbench module for verifying the functionality of `ALU_BASED_STACK`. It generates stimuli, applies them to the module under test (`ALU_BASED_STACK`), and checks the outputs for correctness.
+
+- **Purpose:**
+  - Verify stack operations (push, pop).
+  - Verify arithmetic operations (addition, multiplication).
+  - Check for overflow conditions.
+
+- **Inputs and Outputs:**
+  - List all input and output signals used in the testbench.
+
+- **Simulation Flow:**
+  Briefly explain the sequence of events in the testbench simulation.
+
+### infix2postfix
+
+This module converts an infix expression to a postfix expression using a stack data structure. It reads an infix expression and outputs the corresponding postfix expression.
+
+- **Inputs:**
+  - `infix_expr`: Input infix expression.
+
+- **Outputs:**
+  - `postfix_expr`: Output postfix expression.
+
+- **Parameters:**
+  - `LEN`: Length of the expression in characters (parameter passed to `stack` module).
+
+- **Operation:**
+  Describe the algorithm used to convert infix to postfix notation.
+
+### evalpost
+
+Module to evaluate a postfix expression using the `ALU_BASED_STACK` module. It processes each token in the postfix expression, performs the corresponding arithmetic or stack operation, and outputs the final result.
+
+- **Inputs:**
+  - `infix_expr`: Input infix expression.
+
+- **Outputs:**
+  - `result`: Result of evaluating the postfix expression.
+  - `overflow`: Indicates arithmetic overflow (if any).
+
+- **Operation:**
+  Explain the process of tokenizing and evaluating the postfix expression.
+
 ## Example Usage
 
 ### Example Testbench (`Code/TB.v`)
