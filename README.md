@@ -175,6 +175,17 @@ Module to evaluate a postfix expression using the `ALU_BASED_STACK` module. It p
 
 - **Operation:**
   Explain the process of tokenizing and evaluating the postfix expression.
+  
+### evalpost_tb 
+
+The `evalpost_tb` module serves as a testbench for validating the functionality of the `evalpost` module, which evaluates infix expressions converted to postfix notation.
+
+- **Inputs:**
+  - `infix`: A reg of size `[8*LEN-1:0]`, representing the infix expression to evaluate.
+
+- **Outputs:**
+  - `result`: A wire of size `[N-1:0]`, holds the signed integer result of the postfix evaluation.
+  - `overflow`: A wire indicating overflow during evaluation.
 
 ## Example_Usage
 
