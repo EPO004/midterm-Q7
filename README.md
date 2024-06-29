@@ -233,7 +233,7 @@ module evalpost_tb;
 endmodule
 
 ```
-### The result of this example is
+### The result of this example after simulating in ModelSim is
 ![res](Miscellaneous/images/result.png)
 ## Authors 
--- [Mohammadfarhan Bahrami](https://github.com/EPO004)
+  - [Mohammadfarhan Bahrami](https://github.com/EPO004)
