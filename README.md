@@ -34,8 +34,8 @@ This repository contains Verilog code for a simple processor and its testbench. 
 ## Repository Structure
 
 - `Code/`: Contains Verilog source files.
-- `Document/`: Contains report as PDF.
-- `Miscellaneous/`: Contains ModelSim project files and scripts.
+- `Document/`: Contains report as PDF and docx.
+- `Miscellaneous/`: Contains ModelSim project files and screenshots.
 - `README.md`: This file.
 
 ## Running Simulations
