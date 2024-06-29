@@ -80,61 +80,44 @@ This repository contains Verilog code for a simple processor and its testbench. 
 Here's a quick overview of a sample testbench included in this repository:
 
 ```verilog
-module processor_tb;
+`timescale 1ns/1ps
 
-  reg clk;
-  reg rst;
-  reg [12:0] instruction;
-  wire [511:0] A [0:3];
+module evalpost_tb;
 
-  processor uut (
-    .clk(clk),
-    .rst(rst),
-    .instruction(instruction),
-    .A(A)
-  );
+    parameter LEN = 100; 
+    parameter N = 16;   
 
-  initial begin
-    clk = 0;
-    rst = 1;
-    instruction = 13'b0;
-    $monitor("Time=%0t, instruction=%b, A[0]=%h, A[1]=%h, A[2]=%h, A[3]=%h", 
-             $time, instruction, A[0], A[1], A[2], A[3]);
-    #5 rst = 0;
-    #5 rst = 1;
-    #10;
-    instruction = 13'b100_00_000000000; 
-    #10;
-    instruction = 13'b000_00_000000001; 
-    #10;
-    instruction = 13'b100_01_000000010; 
-    #10;
-    instruction = 13'b000_00_000000001; 
-    #10;
-    instruction = 13'b000_00_000000000; 
-    #10;
-    instruction = 13'b100_00_000000011; 
-    #10;
-    instruction = 13'b000_00_000000001; 
-    #10;
-    instruction = 13'b100_01_000000100; 
-    #10;
-    instruction = 13'b000_00_000000001; 
-    #10;
-    instruction = 13'b001_00_000000000; 
-    #10;
-    instruction = 13'b110_10_000000101; 
-    #10;
-    instruction = 13'b101_00_000000101; 
-    #10;
-    instruction = 13'b000_00_000000001; 
-    #10;
-    $finish;
-  end
+    reg [8*LEN-1:0] infix;
+    wire signed [N-1:0] result;
+    wire overflow;
 
-  always #5 clk = ~clk;
+    evalpost #(.LEN(LEN), .N(N)) uut (
+        .infix(infix),
+        .result(result),
+        .overflow(overflow)
+    );
+
+    task padding;
+        input integer str_len;
+        begin
+            integer i;
+            for (i = 0; i < str_len; i = i + 1) begin
+                infix = {infix, "\0"};
+            end
+        end
+    endtask
+
+    initial begin
+        infix = "2 * 3 + (10 + 4 + 3) * -20 + (6 + 5)";
+        padding(64);
+        $display("Infix expression: %s", infix);
+        #1000 $display("result: %d, overflow: %d", result, overflow);
+        
+        $stop;
+    end
 
 endmodule
+
 ```
 ### The result of this example is
 ![res](Miscellaneous/images/result.png)
