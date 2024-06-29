@@ -237,7 +237,7 @@ endmodule
 ![res](Miscellaneous/images/result.png)
 
 ### And also for another testbench STACK_BASED_ALU_tb we have the result
-![res](Miscellaneous/images/image.png)
+![res](Miscellaneous/images/res2.png)
 
 
 ## Authors 
