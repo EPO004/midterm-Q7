@@ -189,7 +189,7 @@ The `evalpost_tb` module serves as a testbench for validating the functionality 
 
 ## Example_Usage
 
-### Example Testbench (`Code/TB.v`)
+### Example Testbench (`Code/evalpost_tb.v`)
 
 Here's a quick overview of a sample testbench included in this repository:
 
