@@ -3,7 +3,7 @@
 
 ## Table of Contents
 
-- [Modules](#modules)
+  - [Modules](#modules)
   - [Tools_Required](#Tools_Required)
   - [Setting_Up](#Setting_Up)
   - [Repository Structure](#Repository_Structure)
