@@ -234,7 +234,7 @@ endmodule
 
 ```
 ### The result of this example after simulating in ModelSim is
-![res](Miscellaneous/images/result.png)
+![res](Miscellaneous/images/res1.png)
 
 ### And also for another testbench STACK_BASED_ALU_tb we have the result
 ![res](Miscellaneous/images/res2.png)
