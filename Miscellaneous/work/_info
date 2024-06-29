@@ -1,0 +1,254 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1
+vALU_BASED_STACK
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 !s100 WBJE5zH@i6OVH5V<cYgTC3
+Z3 I:UOCiARgCagi6@HFd`BK@2
+Z4 V4kYMM``65DZ`U<Lg;ji>R3
+Z5 !s105 ALU_BASED_STACK_v_unit
+S1
+Z6 dC:\Users\EPO\Desktop\DSD-Proj
+Z7 w1719617331
+Z8 8C:/Users/EPO/Desktop/DSD-Proj/ALU_BASED_STACK.v
+Z9 FC:/Users/EPO/Desktop/DSD-Proj/ALU_BASED_STACK.v
+L0 2
+Z10 OV;L;10.1d;51
+r1
+31
+Z11 !s90 -reportprogress|300|-work|work|-sv|C:/Users/EPO/Desktop/DSD-Proj/ALU_BASED_STACK.v|
+Z12 o-work work -sv -O0
+Z13 n@a@l@u_@b@a@s@e@d_@s@t@a@c@k
+Z14 !s108 1719624406.171000
+Z15 !s107 C:/Users/EPO/Desktop/DSD-Proj/ALU_BASED_STACK.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vALU_BASED_STACK_tb
+R1
+Z16 !s100 5O9LlbBARS0:PH[g`J5ll1
+Z17 I@jR?fHZa9E=SWChRXbOF`0
+Z18 Vk]<CEFJVjC`>0_BPVfXSb3
+Z19 !s105 ALU_BASED_STACK_tb_v_unit
+S1
+R6
+Z20 w1719620648
+Z21 8C:/Users/EPO/Desktop/DSD-Proj/ALU_BASED_STACK_tb.v
+Z22 FC:/Users/EPO/Desktop/DSD-Proj/ALU_BASED_STACK_tb.v
+L0 5
+R10
+r1
+31
+Z23 !s90 -reportprogress|300|-work|work|-sv|C:/Users/EPO/Desktop/DSD-Proj/ALU_BASED_STACK_tb.v|
+R12
+Z24 n@a@l@u_@b@a@s@e@d_@s@t@a@c@k_tb
+Z25 !s108 1719624406.214000
+Z26 !s107 C:/Users/EPO/Desktop/DSD-Proj/ALU_BASED_STACK_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCALCULATE_EXP
+R1
+Z27 I29ZjmcWcNzlfd02IRz=hM2
+Z28 VCh9TVn<0maOebA[I1OVPH1
+Z29 !s105 CALCULATE_EXP_v_unit
+S1
+R6
+Z30 w1719590439
+Z31 8C:/Users/EPO/Desktop/DSD-Proj/CALCULATE_EXP.v
+Z32 FC:/Users/EPO/Desktop/DSD-Proj/CALCULATE_EXP.v
+L0 2
+R10
+r1
+31
+Z33 !s90 -reportprogress|300|-work|work|-sv|C:/Users/EPO/Desktop/DSD-Proj/CALCULATE_EXP.v|
+R12
+Z34 n@c@a@l@c@u@l@a@t@e_@e@x@p
+Z35 !s100 :gHDIoR5:IgkGaY?c^8bH1
+Z36 !s108 1719590443.751000
+Z37 !s107 C:/Users/EPO/Desktop/DSD-Proj/CALCULATE_EXP.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCALCULATE_EXP_tb
+R1
+Z38 !s100 1;c82Hj?O]LY8?47mI]la3
+Z39 IiT1R70nmFlhJD2kgk8>R?0
+Z40 V2:I3GQc:JG:l8G;0cCV6<3
+Z41 !s105 CALCULATE_EXP_tb_v_unit
+S1
+R6
+Z42 w1719586455
+Z43 8C:/Users/EPO/Desktop/DSD-Proj/CALCULATE_EXP_tb.v
+Z44 FC:/Users/EPO/Desktop/DSD-Proj/CALCULATE_EXP_tb.v
+L0 3
+R10
+r1
+31
+Z45 !s90 -reportprogress|300|-work|work|-sv|C:/Users/EPO/Desktop/DSD-Proj/CALCULATE_EXP_tb.v|
+R12
+Z46 n@c@a@l@c@u@l@a@t@e_@e@x@p_tb
+Z47 !s108 1719590443.814000
+Z48 !s107 C:/Users/EPO/Desktop/DSD-Proj/CALCULATE_EXP_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vevalpost
+R1
+Z49 !s100 zS?0MAFo_<]lg[JEFXTGb3
+Z50 I]4>Y@IC<mL>QmJgQ?KdF_2
+Z51 V;F6>WalTU6<SMUMjSgfO:1
+R29
+S1
+R6
+Z52 w1719611733
+R31
+R32
+L0 2
+R10
+r1
+31
+R33
+R12
+Z53 !s108 1719624406.262000
+R37
+!i10b 1
+!s85 0
+!s101 -O0
+vevalpost_tb
+R1
+Z54 !s100 BWM_>NFCBF0o9NoF4]=6]3
+Z55 IBn5>_1:9a<<SH_>CK00XA0
+Z56 VPSW:JNL]VM5;jdDX:mU1j2
+R41
+S1
+R6
+Z57 w1719611741
+R43
+R44
+L0 3
+R10
+r1
+31
+R45
+R12
+Z58 !s108 1719624406.308000
+R48
+!i10b 1
+!s85 0
+!s101 -O0
+vinfix2postfix
+R1
+Z59 !s100 i^0nanFQ[h:>nia6dej330
+Z60 IT>:eh:C]ado>3aDNIVUED2
+Z61 VzGY0hY2Pl28Z[ih7FLgzH0
+Z62 !s105 INFIX_TO_POSTFIX_v_unit
+S1
+R6
+Z63 w1719621511
+Z64 8C:/Users/EPO/Desktop/DSD-Proj/INFIX_TO_POSTFIX.v
+Z65 FC:/Users/EPO/Desktop/DSD-Proj/INFIX_TO_POSTFIX.v
+L0 2
+R10
+r1
+31
+Z66 !s90 -reportprogress|300|-work|work|-sv|C:/Users/EPO/Desktop/DSD-Proj/INFIX_TO_POSTFIX.v|
+R12
+!i10b 1
+!s85 0
+Z67 !s108 1719624406.352000
+Z68 !s107 C:/Users/EPO/Desktop/DSD-Proj/INFIX_TO_POSTFIX.v|
+!s101 -O0
+vINFIX_TO_POSTFIX
+R1
+Z69 !s100 Nhm;VgAZ8bKA7^bM3ZdbY0
+Z70 IOY_C;_jC:_AjFk8><kc<32
+Z71 VEn2TCPBK<TfiZ@LQV@]7z1
+R62
+S1
+R6
+Z72 w1719586592
+R64
+R65
+L0 3
+R10
+r1
+31
+R66
+R12
+Z73 n@i@n@f@i@x_@t@o_@p@o@s@t@f@i@x
+Z74 !s108 1719590443.866000
+R68
+!i10b 1
+!s85 0
+!s101 -O0
+vINFIX_TO_POSTFIX_tb
+R1
+Z75 !s100 ^zWMZQhKci=WPVdk62;992
+Z76 IPG5EK20fVPUJKH`>l6?DU1
+Z77 V;^S0IO_ogTS6N?:RzPl>K0
+Z78 !s105 INFIX_TO_POSTFIX_tb_v_unit
+S1
+R6
+Z79 w1719584511
+Z80 8C:/Users/EPO/Desktop/DSD-Proj/INFIX_TO_POSTFIX_tb.v
+Z81 FC:/Users/EPO/Desktop/DSD-Proj/INFIX_TO_POSTFIX_tb.v
+L0 5
+R10
+r1
+31
+Z82 !s90 -reportprogress|300|-work|work|-sv|C:/Users/EPO/Desktop/DSD-Proj/INFIX_TO_POSTFIX_tb.v|
+R12
+Z83 n@i@n@f@i@x_@t@o_@p@o@s@t@f@i@x_tb
+Z84 !s108 1719585648.278000
+Z85 !s107 C:/Users/EPO/Desktop/DSD-Proj/INFIX_TO_POSTFIX_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vstack
+R1
+!i10b 1
+Z86 !s100 [d[2UefFSU[DI=_^TKDR43
+Z87 I3O_nb1o`0@likk9LAX8zf3
+Z88 VbATM2;edbCAcQ9cRG^:Om3
+Z89 !s105 stack_v_unit
+S1
+R6
+Z90 w1719617326
+Z91 8C:/Users/EPO/Desktop/DSD-Proj/stack.v
+Z92 FC:/Users/EPO/Desktop/DSD-Proj/stack.v
+L0 2
+R10
+r1
+!s85 0
+31
+!s108 1719624406.400000
+!s107 C:/Users/EPO/Desktop/DSD-Proj/stack.v|
+Z93 !s90 -reportprogress|300|-work|work|-sv|C:/Users/EPO/Desktop/DSD-Proj/stack.v|
+!s101 -O0
+R12
+vStack
+R1
+Z94 !s100 VHF=7]aIYMJ>]e9gA_beR0
+Z95 ICCX>QF[zco3AfoW[h8^N@2
+Z96 V85074AAjD=i>=lmb9blh63
+R89
+S1
+R6
+Z97 w1719586504
+R91
+R92
+L0 3
+R10
+r1
+31
+R93
+R12
+Z98 n@stack
+Z99 !s108 1719590443.919000
+Z100 !s107 C:/Users/EPO/Desktop/DSD-Proj/stack.v|
+!i10b 1
+!s85 0
+!s101 -O0

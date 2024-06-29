@@ -1,0 +1,36 @@
+C:/Users/EPO/Desktop/DSD-Proj/ALU_BASED_STACK.v {1 {vlog -work work -sv C:/Users/EPO/Desktop/DSD-Proj/ALU_BASED_STACK.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU_BASED_STACK
+
+Top level modules:
+	ALU_BASED_STACK
+
+} {} {}} C:/Users/EPO/Desktop/DSD-Proj/ALU_BASED_STACK_tb.v {1 {vlog -work work -sv C:/Users/EPO/Desktop/DSD-Proj/ALU_BASED_STACK_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU_BASED_STACK_tb
+
+Top level modules:
+	ALU_BASED_STACK_tb
+
+} {} {}} C:/Users/EPO/Desktop/DSD-Proj/stack.v {1 {vlog -work work -sv C:/Users/EPO/Desktop/DSD-Proj/stack.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module stack
+
+Top level modules:
+	stack
+
+} {} {}} C:/Users/EPO/Desktop/DSD-Proj/CALCULATE_EXP.v {1 {vlog -work work -sv C:/Users/EPO/Desktop/DSD-Proj/CALCULATE_EXP.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module evalpost
+
+Top level modules:
+	evalpost
+
+} {} {}} C:/Users/EPO/Desktop/DSD-Proj/CALCULATE_EXP_tb.v {1 {vlog -work work -sv C:/Users/EPO/Desktop/DSD-Proj/CALCULATE_EXP_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module evalpost_tb
+
+Top level modules:
+	evalpost_tb
+
+} {} {}}
