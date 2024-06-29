@@ -49,17 +49,17 @@ This repository contains Verilog code for a simple processor and its testbench. 
    - Go to `File > New > Project`.
    - Enter a project name and specify a location.
    - Add existing files from the `Code/` directory to the project.
-   - ![Creating New Project](Miscellaneous/images/newproj.png)
+   - ![Creating New Project](Miscellaneous/images/proj.png)
 
 3. **Compile the Code**
    - In the ModelSim window, go to `Compile > Compile All`.
-   - ![compile](Miscellaneous/images/complie_and_sim.png)
+   - ![compile](Miscellaneous/images/compile.png)
 
 4. **Run the Simulation**
    - Go to `Simulate > Start Simulation`.
    - Select the testbench module (e.g., `TB.v`) from the `Code` directory.
    - Run the simulation and view the waveforms in the waveform window.
-   - ![sim](Miscellaneous/images/sim_contin.png)
+   - ![sim](Miscellaneous/images/run.png)
 
 ### Using VSCode
 
